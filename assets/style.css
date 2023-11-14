@@ -141,7 +141,18 @@ body {
   text-align: center;
   margin: 5px 5px;
   background-color: transparent; /* Set background to transparent */
+  text-align: center;
+  margin: 5px 5px;
   position: sticky;
+}
+
+.qs_app_step_nav {
+  display: inline-block;
+  padding: 5px 10px;
+  margin: 0 5px;
+  border-radius: 5px;
+  background-color: transparent; /* No background color by default */
+  cursor: pointer;
 }
 
 .qs_app_step_nav.active {
@@ -188,7 +199,7 @@ body {
   }
 
   /* Let's hide steps on mobile to have more space */
-  .qs_app_steps_nav {
+  .qs_app_modal_header {
     display: none;
   }
 
